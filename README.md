@@ -1,3 +1,15 @@
+https://main.d3finvt3x41p9g.amplifyapp.com/
+
+docker run -v $(pwd):/zap/wrk/:rw -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py -t https://main.d3finvt3x41p9g.amplifyapp.com/ -r report.html
+
+
+
+-----
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
