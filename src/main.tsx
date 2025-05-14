@@ -17,7 +17,7 @@ export const myTheme = {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ThemeProvider theme={myTheme}>
+    <ThemeProvider theme={myTheme} nonce="rAnd0m">
       <App />
     </ThemeProvider>
   </StrictMode>,
