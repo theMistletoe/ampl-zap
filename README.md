@@ -1,11 +1,3 @@
-https://main.d3finvt3x41p9g.amplifyapp.com/
-
-docker run -v $(pwd):/zap/wrk/:rw -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py -t https://main.d3finvt3x41p9g.amplifyapp.com/ -r report.html
-
-
-
------
-
 
 
 
